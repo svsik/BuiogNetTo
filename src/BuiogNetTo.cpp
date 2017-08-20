@@ -712,7 +712,7 @@ void cfgInit() {  // Initiate connection
     // ledOffDuration = CONNECT_BLINK;
     // tLedBlink.set(TASK_IMMEDIATE, TASK_FOREVER, &cfgLed, &ledOnEnable, &ledOnDisable);
     // tLedBlink.enable();
-
+\
     // check connection periodically
     tConfigure.set(CONNECT_INTRVL, TASK_FOREVER, &cfgChkConnect);
     tConfigure.enableDelayed();
