@@ -1,0 +1,34 @@
+{
+    "name": "Adafruit PCD8544 Nokia 5110 LCD library", 
+    "repository": {
+        "url": "https://github.com/WereCatf/Adafruit-PCD8544-Nokia-5110-LCD-library.git", 
+        "type": "git", 
+        "branch": "esp8266"
+    }, 
+    "platforms": [
+        "espressif8266"
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "dependencies": {
+        "frameworks": "arduino", 
+        "name": "Adafruit GFX Library"
+    }, 
+    "version": "0c92b10794", 
+    "authors": [
+        {
+            "maintainer": false, 
+            "name": "WereCatf", 
+            "url": "https://github.com/WereCatf", 
+            "email": null
+        }
+    ], 
+    "keywords": [
+        "lcd", 
+        "5110", 
+        "pcd8544"
+    ], 
+    "id": 257, 
+    "description": "Espressif ESP8266 port of the Adafruit PCD8544 library"
+}
